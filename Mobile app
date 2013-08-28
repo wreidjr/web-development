@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+     <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+     <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title> pwc Iphone App</title>
+    <link rel="icon" href="images/PwC_Icon.png" type="image/x-con" />
+  <!--<link rel="stylesheet" type="text/css" href="dojox/mobile/themes/iphone/iphone-compat.css"/>-->
+
+ <link rel="stylesheet" type="text/css" href="dojox/mobile/themes/common/domButtons/DomButtionsBlackRightArrow16.css"   />
+    <link href="../themes/common/domButtons/DomButtionsWhiteRightArrow16.css" type="text/css" rel="stylesheet" />
+    <!--<script src="dijit/dijit.js"></script>-->
+    <script src="dojox/mobile/deviceTheme.js" data-dojo-config="mblUserAgent:'BlackBerry'"></script>
+        <script src="dojo/dojo.js" data-dojo-config="async:true, parseOnLoad:true"></script>
+ <!--   <script src="dojox/mobile/Accordion.js" type="text/javascript"></script>-->
+    <script>
+        require(["dojox/mobile/parser",
+            "dojox/mobile",
+               "dojox/mobile/Accordion",
+               "dojox/mobile/ContentPane",
+               "dojox/mobile/ScrollableView","dijit/Editor", "dojox/editor/plugins/AutoUrlLink",
+        "dojox/mobile/compat"]
+               //function (paser, mobile, Accordion, ContentPane, ScrollableView) {
+               //    parser.parse(); data-dojo-props="back:'Settings', moveTo:'settings'"
+               //});
+        );
+    </script>
+    <style>
+        li {
+            text-decoration:none;
+            list-style:none;
+        }
+
+        ftr {
+        }
+    </style>
+
+</head>
+<body class="mblBackground">
+    <div class="mblHeadingTitle">
+    <h1 data-dojo-type="dojox.mobile.Heading" data-dojo-props="fixed:'top'" >
+        <img src="place image here!" />
+    </h1>
+    </div>
+    <div data-dojo-type="dojox/mobile/Accordion" data-dojo-props='singleOpen:true'>
+        <div data-dojo-props='label:"Home"'
+            data-dojo-type="dojox/mobile/ScrollableView", height:"100px" >
+            <div style="padding:10px; color:black">
+    
+    </div>
+            </div>
+          <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"Im Fokus"'>
+                <div style="padding:10px; color:black">
+    <!--  <div style="float: left">-->
+                                       <ul data-dojo-type="dojox/mobile/RoundRectList">
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"<a href=\"http://www.google.com\">Consulting</a>"' ></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Energiewende"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Finanzierung"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Risk"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Internationlisierung"'></li>
+                                   <!-- </ul>-->
+                               <!-- </div>
+                                <div style="float: left">-->
+                              <!--      <ul data-dojo-type="dojox/mobile/RoundRectList" style="float:left">-->
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Nachhaltigkeit"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Personal"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Prozessoptimierung"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Rechnungslegung"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Steuerberatung"'></li>
+                                    </ul>
+                              <!-- </div>-->
+                             <!-- </div>-->
+    </div>
+</div>
+               <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"Branchen & Märkte"'>
+                <div style="padding:10px; color:black">
+    <!--  <div style="float: left">-->
+                                       <ul data-dojo-type="dojox/mobile/RoundRectList">
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Automobilindustrie"'>
+                                            <a ></a>
+                                        </li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Energiewirtschaft"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Financial Services"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Gesundheitswesen und Pharma"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Handel und Konsumgüter"'></li>
+                                   <!-- </ul>-->
+                               <!-- </div>
+                                <div style="float: left">-->
+                              <!--      <ul data-dojo-type="dojox/mobile/RoundRectList" style="float:left">-->
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Industrielle Produktion"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Technologie, Medien und Telekommunikationn"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Transport und Logistik"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Familienunternehmen und Mittelstand"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Öffentlicher Sektor"'></li>
+
+                                           <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Kapitalmarktorientierte Unternehmen"'></li>
+                                           <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Finanzinvestoren"'></li>
+                                           <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Aufsichtsräte"'></li>
+                                           <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Privatpersonen"'></li>
+                                           <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Internationale Märkte"'></li>
+                                    </ul>
+                              <!-- </div>-->
+                             <!-- </div>-->
+    </div>
+</div>
+               <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"Dienstleistungen"'>
+                <div style="padding:10px; color:black">
+    <!--  <div style="float: left">-->
+                                       <ul data-dojo-type="dojox/mobile/RoundRectList">
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Transaktionen"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Finanzierung und Investition"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Sanierung, Restrukturierung und Forensic Services"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Strategie, Organisation, Prozesse, Personal und Systeme"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Prüfung, Rechnungslegung und Berichterstattung"'></li>
+                                   <!-- </ul>-->
+                               <!-- </div>
+                                <div style="float: left">-->
+                              <!--      <ul data-dojo-type="dojox/mobile/RoundRectList" style="float:left">-->
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Steuern und Recht"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Branchenregulierung"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"The Academy"'></li>
+                                      
+                                    </ul>
+                              <!-- </div>-->
+                             <!-- </div>-->
+    </div>
+</div>
+               <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"Wissen & Events"'>
+                <div style="padding:10px; color:black">
+    <!--  <div style="float: left">-->
+                                       <ul data-dojo-type="dojox/mobile/RoundRectList">
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Publikationen"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Blogs"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Newsletter"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Veranstaltungssuche"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"The Academy"'></li>
+                                   </ul>
+                               <!-- </div>
+                                <div style="float: left">-->
+                              <!--      <ul data-dojo-type="dojox/mobile/RoundRectList" style="float:left">-->
+                               
+                              <!-- </div>-->
+                             <!-- </div>-->
+    </div>
+</div>
+               <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"Wir über uns"'>
+                <div style="padding:10px; color:black">
+    <!--  <div style="float: left">-->
+                                       <ul data-dojo-type="dojox/mobile/RoundRectList">
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Presse"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Pressemitteilungen"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Pressemitteilungen PwC-Stiftung"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Zahlen und Fakten"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Executive Summaries"'></li>
+                                   <!-- </ul>-->
+                               <!-- </div>
+                                <div style="float: left">-->
+                              <!--      <ul data-dojo-type="dojox/mobile/RoundRectList" style="float:left">-->
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Pressekontakt"'></li>
+                                    
+                                    </ul>
+                              <!-- </div>-->
+                             <!-- </div>-->
+    </div>
+</div>
+               <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"Karriere"'>
+                <div style="padding:10px; color:black">
+    <!--  <div style="float: left">-->
+                                       <ul data-dojo-type="dojox/mobile/RoundRectList">
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Warum PwC"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Studenten"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Berufserfahrene"'></li>
+                                        <li data-dojo-type="dojox/mobile/ListItem" data-dojo-props='label:"Schüler"'></li>
+                                        
+                                    </ul>
+                              <!-- </div>-->
+                             <!-- </div>-->
+    </div>
+</div>
+             
+        </div>
+    <div><br /></div>
+
+    <div><br /></div>
+    <div><br /></div>
+    <div><br /></div>
+    <div><br /></div>
+           
+    <footer style="height:60px;">
+        <div data-dojo-type="dojox/mobile/Accordion" data-dojo-props='singleOpen:true'>
+        <div data-dojo-type="dojox/mobile/ScrollableView", height:"80px" ></div>
+          <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"Standorte"'>
+                <div style="padding:10px; color:black">
+    
+    </div>
+</div>
+     <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"Kontakt"'>
+                <div style="padding:10px; color:black">
+   
+    </div>
+</div>
+                 <div data-dojo-type="dojox/mobile/ContentPane" data-dojo-props='label:"PwCPlus", moveTo:"https://pwcplus.pwc.de" '>
+                     
+                <div style="padding:10px; color:black">
+   
+    </div>
+</div>
+
+
+        </div>
+
+			<div>&#169;&#160;2010-2013 </a> for further details. 
+               <div style="float: right">
+                   <img src="place image here!" />
+               </div>
+             <ul style="min-width:120px">
+
+
+                 <li><a href="/de/unternehmensangaben/unternehmensangaben.jhtml">Unternehmensangaben</a></li>
+
+
+
+
+                 <li><a href="/de/rechtliche-hinweise/rechtliche-hinweise.jhtml">Rechtliche Hinweise</a></li>
+
+
+
+
+                 <li><a href="/de/cookie-information/index.jhtml">Über Cookies</a></li>
+
+             </ul> </div>
+		
+	
+
+
+
+</footer>
+ 
+      
+
+
+</body>
+    
+</html>
+
